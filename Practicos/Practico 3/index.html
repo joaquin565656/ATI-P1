@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico 3</title>
+    <script src="/js/script.js"></script>
+  </head>
+  <body>
+    <h1>Práctico 3</h1>
+
+    <h2>Ejercicio 1:</h2>
+    <p>
+      Imprimir todos los números enteros del 1 al 1.000 (un número por línea).
+    <p>
+    <button type="button" id="btnEj1">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj1')">Limpiar</button>
+    <p id="resultadoEj1"><p>
+
+    <hr>
+
+    <h2>Ejercicio 2:</h2>
+    <p>Imprimir todos los números enteros del -100 al 10.<p>
+    <button type="button" id="btnEj2">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj2')">Limpiar</button>
+    <p id="resultadoEj2"><p>
+
+    <hr>
+
+    <h2>Ejercicio 3:</h2>
+    <p>Imprimir todos los números enteros del 40 al 10.<p>
+    <button type="button" id="btnEj3">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj3')">Limpiar</button>
+    <p id="resultadoEj3"><p>
+
+    <hr>
+
+    <h2>Ejercicio 4:</h2>
+    <p>Imprimir todos los números enteros del 20 al -30.<p>
+    <button type="button" id="btnEj4">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj4')">Limpiar</button>
+    <p id="resultadoEj4"><p>
+
+    <hr>
+
+    <h2>Ejercicio 5:</h2>
+    <p>
+      Imprimir todos los números múltiplos de 5 que hay entre 1 y 450
+      (inclusive).
+    <p>
+    <button type="button" id="btnEj5">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj5')">Limpiar</button>
+    <p id="resultadoEj5"><p>
+
+    <hr>
+
+    <h2>Ejercicio 6:</h2>
+    <p>Imprimir todos los números múltiplos de 4 que hay entre -33 y 230.<p>
+    <button type="button" id="btnEj6">Imprimir Números</button>
+    <button type="button" onClick="limpiar('resultadoEj6')">Limpiar</button>
+    <p id="resultadoEj6"><p>
+
+    <hr>
+
+    <h2>Ejercicio 7:</h2>
+    <p>
+      Ingresar un número entre 2 y 50 y dibujar en pantalla una línea compuesta
+      por guiones. La línea tendrá tantos guiones como el número ingresado.
+    <p>
+    <form id="formEj7">
+      <label for="numeroEj7">Ingrese Numero</label>
+      <input
+        type="number"
+        id="numeroEj7"
+        placeholder="Ingrese número entre 2 y 50"
+      >
+    </form>
+    <button type="button" id="btnEj7">Dibujar Línea</button>
+    <button type="button" onClick="limpiar('resultadoEj7')">
+      Limpiar Dibujo
+    </button>
+    <p id="resultadoEj7"><p>
+
+    <hr>
+
+    <h2>Ejercicio 8:</h2>
+    <p>
+      Ingresar dos números y al presionar un botón mostrar todos los números
+      entre esos dos números (inclusive). Contemplar el caso que los números se
+      ingresen invertidos (primero el mayor y después el menor).
+    <p>
+    <form id="formEj8">
+      <label for="numero1Ej8">Ingrese Numero 1</label>
+      <input type="number" id="numero1Ej8" placeholder="Ingrese número 1" >
+      <label for="numero2Ej8">Ingrese Numero 2</label>
+      <input type="number" id="numero2Ej8" placeholder="Ingrese número 2" >
+    </form>
+    <button type="button" id="btnEj8">Mostrar Números</button>
+    <button type="button" onClick="limpiar('resultadoEj8')">Limpiar</button>
+    <p id="resultadoEj8"><p>
+
+
+    <hr>
+
+
+    <h2>Ejercicio 9:</h2>
+    <p>
+      Pedir dos números y utilizando solamente sumas y estructuras repetitivas,
+      implementar el producto de esos dos números.
+    <p>
+    <form id="formEj9">
+      <label for="numero1Ej9">Ingrese Numero 1</label>
+      <input type="number" id="numero1Ej9" placeholder="Ingrese número 1" >
+      <label for="numero2Ej9">Ingrese Numero 2</label>
+      <input type="number" id="numero2Ej9" placeholder="Ingrese número 2" >
+    </form>
+    <button type="button" id="btnEj9">Calcular Producto Numero</button>
+    <button type="button" onClick="limpiar('resultadoEj9')">Limpiar</button>
+    <p id="resultadoEj9"><p>
+
+    <hr>
+
+    <h2>Ejercicio 10:</h2>
+    <p>
+      Pedir dos números y mostrar el producto de los números comprendidos entre
+      ellos (inclusive). Sólo se realizarán pruebas donde el primer número sea
+      menor al segundo, no es necesario controlarlo.
+    <p>
+    <form id="formEj10">
+      <label for="numero1Ej10">Ingrese Numero 1</label>
+      <input type="number" id="numero1Ej10" placeholder="Ingrese número 1" >
+      <label for="numero2Ej10">Ingrese Numero 2</label>
+      <input type="number" id="numero2Ej10" placeholder="Ingrese número 2" >
+    </form>
+    <button type="button" id="btnEj10">Calcular Producto Numero</button>
+    <button type="button" onClick="limpiar('resultadoEj10')">Limpiar</button>
+    <p id="resultadoEj10"><p>
+
+    <hr>
+
+    <h2>Ejercicio 11:</h2>
+    <p>
+      Ingresar tres números y al presionar un botón mostrar todos los números
+      múItiplos del tercero que están entre los dos primeros números, contemplar
+      el caso que los dos primeros números se ingresen invertidos (primero el
+      mayor y después el menor).
+    <p>
+    <form id="formEj11">
+      <label for="numero1Ej11">Ingrese Numero 1</label>
+      <input type="number" id="numero1Ej11" placeholder="Ingrese número 1" >
+      <label for="numero2Ej11">Ingrese Numero 2</label>
+      <input type="number" id="numero2Ej11" placeholder="Ingrese número 2" >
+      <label for="numero3Ej11">Ingrese Numero 3</label>
+      <input type="number" id="numero3Ej11" placeholder="Ingrese número 3" >
+    </form>
+    <button type="button" id="btnEj11">Calcular Múltiplo</button>
+    <button type="button" onClick="limpiar('resultadoEj11')">Limpiar</button>
+    <p id="resultadoEj11"><p>
+
+    <hr>
+
+    <h2>Ejercicio 12:</h2>
+    <p>Ingresar un número y calcular su factorial.<p>
+    <form id="formEj12">
+      <label for="numeroEj12">Ingrese Numero</label>
+      <input type="number" id="numeroEj12" placeholder="Ingrese un número " >
+    </form>
+    <button type="button" id="btnEj12">Calcular Factorial</button>
+    <button type="button" onClick="limpiar('resultadoEj12')">Limpiar</button>
+    <p id="resultadoEj12"><p>
+
+    <hr>
+
+    <h2>Ejercicio 13:</h2>
+    <p>Dibujar un rectángulo con el carácter elegido.<p>
+    <form id="formEj13">
+      <label for="anchoEj13">Ancho</label>
+      <input type="number" id="anchoEj13" placeholder="Ingrese ancho" >
+      <label for="altoEj13">Alto</label>
+      <input type="number" id="altoEj13" placeholder="Ingrese alto" >
+      <label for="caracterEj13">Caracter</label>
+      <input
+        type="text"
+        id="caracterEj13"
+        placeholder="Ingrese un caracter"
+        maxlength="1"
+      >
+    </form>
+    <button type="button" id="btnEj13">Dibujar Rectángulo</button>
+    <button type="button" onClick="limpiar('resultadoEj13')">Limpiar</button>
+    <p id="resultadoEj13"><p>
+
+    <hr>
+
+    <h2>Ejercicio 14:</h2>
+    <p>
+      Pedir un número y mostrar la cantidad de dígitos que tiene. Para saber la
+      cantidad de dígitos deberemos dividir el número sucesivamente entre diez
+      hasta que el resultado sea menor a 1
+    <p>
+    <form id="formEj14">
+      <label for="numeroEj14">Ingrese Numero</label>
+      <input type="number" id="numeroEj14" placeholder="Ingrese un número " >
+    </form>
+    <button type="button" id="btnEj14">Calcular Dígitos</button>
+    <button type="button" onClick="limpiar('resultadoEj14')">Limpiar</button>
+    <p id="resultadoEj14"><p>
+
+    <hr>
+
+    <h2>Ejercicio 15:</h2>
+    <p>
+      Pedir un número y dividirlo entre 20 hasta que el resultado sea menor a
+      100, mostrar el resultado. Se debe validar que el número ingresado sea
+      mayor a 2000, en caso contrario avisar al usuario y volver a solicitar el
+      número.
+    <p>
+    <form id="formEj15">
+      <label for="numeroEj15">Ingrese Numero (mayor a 2000)</label>
+      <input type="number" id="numeroEj15" placeholder="Ingrese un número " >
+    </form>
+    <button type="button" id="btnEj15">Dividir Número</button>
+    <button type="button" onClick="limpiar('resultadoEj15')">Limpiar</button>
+    <p id="resultadoEj15"><p>
+
+    <hr>
+
+    <h2>Ejercicio 16:</h2>
+    <p>
+      Pedir dos números y mostrar el primer número incluido entre ellos que sea
+      múltiplo de 4 y 6 a la vez.
+    <p>
+    <form id="formEj16">
+      <label for="numero1Ej16">Ingrese Numero 1</label>
+      <input type="number" id="numero1Ej16" placeholder="Ingrese número 1" >
+      <label for="numero2Ej16">Ingrese Numero 2</label>
+      <input type="number" id="numero2Ej16" placeholder="Ingrese número 2" >
+    </form>
+    <button type="button" id="btnEj16">Buscar Múltiplo</button>
+    <button type="button" onClick="limpiar('resultadoEj16')">Limpiar</button>
+    <p id="resultadoEj16"><p>
+  </body>
+</html>
